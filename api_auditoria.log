@@ -1,0 +1,264 @@
+2026-06-07 18:12:50,307 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.165:5001
+2026-06-07 18:12:50,307 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-07 18:13:19,392 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:13:20,400 - INFO - 127.0.0.1 - - [07/Jun/2026 18:13:20] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:18:33,799 - INFO - 127.0.0.1 - - [07/Jun/2026 18:18:33] "[33mHEAD / HTTP/1.1[0m" 404 -
+2026-06-07 18:19:12,319 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.165:5001
+2026-06-07 18:19:12,319 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-07 18:19:23,793 - INFO - 127.0.0.1 - - [07/Jun/2026 18:19:23] "HEAD / HTTP/1.1" 200 -
+2026-06-07 18:19:53,033 - INFO - 127.0.0.1 - - [07/Jun/2026 18:19:53] "GET / HTTP/1.1" 200 -
+2026-06-07 18:19:53,098 - INFO - 127.0.0.1 - - [07/Jun/2026 18:19:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-07 18:19:53,098 - INFO - 127.0.0.1 - - [07/Jun/2026 18:19:53] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-06-07 18:19:53,270 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:19:53,275 - INFO - 127.0.0.1 - - [07/Jun/2026 18:19:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-07 18:19:54,275 - INFO - 127.0.0.1 - - [07/Jun/2026 18:19:54] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:19:55,271 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:19:56,272 - INFO - 127.0.0.1 - - [07/Jun/2026 18:19:56] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:19:57,271 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:19:58,277 - INFO - 127.0.0.1 - - [07/Jun/2026 18:19:58] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:19:59,272 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:00,278 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:00] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:01,272 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:02,275 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:02] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:03,271 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:04,272 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:04] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:05,271 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:06,277 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:06] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:07,273 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:08,278 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:08] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:08,661 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:09,663 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:09] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:09,986 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:10,991 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:10] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:11,986 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:12,988 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:12] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:13,215 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:13] "GET / HTTP/1.1" 200 -
+2026-06-07 18:20:13,275 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-07 18:20:13,276 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-07 18:20:13,302 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:13,306 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-07 18:20:14,308 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:14] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:14,309 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:15,311 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:15] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:15,313 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:16,322 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:16] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:16,324 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:17,330 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:17] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:17,335 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:18,339 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:18] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:18,341 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:19,347 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:19] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:19,349 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:20,355 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:20] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:20,359 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:21,364 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:21] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:21,365 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:22,371 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:22] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:22,375 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:23,381 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:23] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:23,383 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:24,385 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:24] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:24,387 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:25,393 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:25] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:25,396 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:26,402 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:26] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:26,405 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:27,411 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:27] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:27,414 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:28,415 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:28] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:28,419 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:29,423 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:29] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:29,425 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:30,431 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:30] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:30,434 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:31,439 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:31] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:31,443 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:32,448 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:32] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:32,452 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:33,457 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:33] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:33,459 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:34,460 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:34] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:34,464 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:35,470 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:35] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:35,987 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:36,992 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:36] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:36,996 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:37,997 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:37] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:38,001 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:39,005 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:39] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:39,008 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:40,010 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:40] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:40,013 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:41,014 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:41] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:41,016 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:42,019 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:42] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:42,022 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:43,026 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:43] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:43,028 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:44,034 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:44] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:44,038 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:45,044 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:45] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:45,048 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:46,052 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:46] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:46,056 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:47,059 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:47] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:47,063 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:48,068 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:48] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:48,071 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:49,077 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:49] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:49,080 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:50,084 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:50] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:50,087 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:51,089 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:51] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:51,093 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:52,099 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:52] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:52,102 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:53,105 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:53] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:53,109 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:54,114 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:54] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:54,117 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:55,123 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:55] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:55,126 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:56,132 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:56] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:56,136 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:57,138 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:57] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:57,142 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:58,143 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:58] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:58,145 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:20:59,151 - INFO - 127.0.0.1 - - [07/Jun/2026 18:20:59] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:20:59,154 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:00,159 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:00] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:00,163 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:01,165 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:01] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:01,170 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:02,176 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:02] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:02,179 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:03,185 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:03] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:03,188 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:04,194 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:04] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:04,195 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:05,196 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:05] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:05,198 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:06,202 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:06] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:06,204 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:07,209 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:07] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:07,211 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:08,217 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:08] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:08,219 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:09,223 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:09] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:09,226 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:10,230 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:10] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:10,233 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:11,238 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:11] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:11,984 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:12,987 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:12] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:13,984 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:14,987 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:14] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:15,986 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:16,992 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:16] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:17,984 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:18,985 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:18] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:19,985 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:20,991 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:20] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:21,985 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:22,988 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:22] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:23,984 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:24,988 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:24] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:25,985 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:26,991 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:26] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:27,985 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:28,990 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:28] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:29,984 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:30,989 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:30] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:31,985 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:32,990 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:32] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:33,985 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:34,991 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:34] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:35,985 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:36,990 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:36] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:37,984 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:38,990 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:38] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:39,985 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:40,988 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:40] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:41,984 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:42,990 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:42] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:21:42,993 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:21:43,995 - INFO - 127.0.0.1 - - [07/Jun/2026 18:21:43] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:22:41,984 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:22:42,990 - INFO - 127.0.0.1 - - [07/Jun/2026 18:22:42] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:22:42,993 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:22:43,996 - INFO - 127.0.0.1 - - [07/Jun/2026 18:22:43] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:23:41,984 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:23:42,989 - INFO - 127.0.0.1 - - [07/Jun/2026 18:23:42] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:23:42,992 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:23:43,998 - INFO - 127.0.0.1 - - [07/Jun/2026 18:23:43] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:24:41,983 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:24:42,986 - INFO - 127.0.0.1 - - [07/Jun/2026 18:24:42] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:24:42,988 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:24:43,993 - INFO - 127.0.0.1 - - [07/Jun/2026 18:24:43] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:25:41,980 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:25:42,986 - INFO - 127.0.0.1 - - [07/Jun/2026 18:25:42] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:25:42,989 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:25:43,991 - INFO - 127.0.0.1 - - [07/Jun/2026 18:25:43] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:26:41,978 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:26:42,984 - INFO - 127.0.0.1 - - [07/Jun/2026 18:26:42] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:26:42,986 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:26:43,992 - INFO - 127.0.0.1 - - [07/Jun/2026 18:26:43] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:27:41,980 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:27:42,986 - INFO - 127.0.0.1 - - [07/Jun/2026 18:27:42] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:27:42,989 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:27:43,995 - INFO - 127.0.0.1 - - [07/Jun/2026 18:27:43] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:28:41,992 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:28:42,999 - INFO - 127.0.0.1 - - [07/Jun/2026 18:28:42] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:28:43,002 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:28:44,008 - INFO - 127.0.0.1 - - [07/Jun/2026 18:28:44] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:29:41,998 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:29:43,002 - INFO - 127.0.0.1 - - [07/Jun/2026 18:29:43] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:29:43,005 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:29:44,011 - INFO - 127.0.0.1 - - [07/Jun/2026 18:29:44] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:30:41,999 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:30:43,007 - INFO - 127.0.0.1 - - [07/Jun/2026 18:30:43] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:30:43,010 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:30:44,017 - INFO - 127.0.0.1 - - [07/Jun/2026 18:30:44] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:31:41,999 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:31:43,010 - INFO - 127.0.0.1 - - [07/Jun/2026 18:31:43] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:31:43,012 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:31:44,017 - INFO - 127.0.0.1 - - [07/Jun/2026 18:31:44] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:32:41,997 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:32:43,005 - INFO - 127.0.0.1 - - [07/Jun/2026 18:32:43] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:32:43,007 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:32:44,018 - INFO - 127.0.0.1 - - [07/Jun/2026 18:32:44] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:33:41,997 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:33:43,005 - INFO - 127.0.0.1 - - [07/Jun/2026 18:33:43] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:33:43,007 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:33:44,012 - INFO - 127.0.0.1 - - [07/Jun/2026 18:33:44] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:34:41,998 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:34:43,002 - INFO - 127.0.0.1 - - [07/Jun/2026 18:34:43] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:34:43,004 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:34:44,013 - INFO - 127.0.0.1 - - [07/Jun/2026 18:34:44] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:35:42,148 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:35:43,152 - INFO - 127.0.0.1 - - [07/Jun/2026 18:35:43] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:35:43,155 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:35:44,166 - INFO - 127.0.0.1 - - [07/Jun/2026 18:35:44] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:50:45,521 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:50:46,527 - INFO - 127.0.0.1 - - [07/Jun/2026 18:50:46] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:50:46,529 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:50:47,534 - INFO - 127.0.0.1 - - [07/Jun/2026 18:50:47] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:51:45,518 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:51:46,524 - INFO - 127.0.0.1 - - [07/Jun/2026 18:51:46] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:51:46,525 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:51:47,531 - INFO - 127.0.0.1 - - [07/Jun/2026 18:51:47] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:52:45,521 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:52:46,523 - INFO - 127.0.0.1 - - [07/Jun/2026 18:52:46] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:52:46,527 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:52:47,533 - INFO - 127.0.0.1 - - [07/Jun/2026 18:52:47] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:53:45,521 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:53:46,527 - INFO - 127.0.0.1 - - [07/Jun/2026 18:53:46] "GET /status HTTP/1.1" 200 -
+2026-06-07 18:53:46,529 - INFO - Consulta de estado recibida desde la IP: 127.0.0.1
+2026-06-07 18:53:47,535 - INFO - 127.0.0.1 - - [07/Jun/2026 18:53:47] "GET /status HTTP/1.1" 200 -

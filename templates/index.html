@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Estado del Sistema</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Estado del Sistema</h1>
+      <p id="sistema-nombre">Cargando...</p>
+    </header>
+
+    <main>
+      <section class="cards">
+        <div class="card">
+          <h3>CPU</h3>
+          <p id="cpu">– %</p>
+        </div>
+        <div class="card">
+          <h3>RAM disponible</h3>
+          <p id="ram">– GB</p>
+        </div>
+        <div class="card">
+          <h3>Disco usado</h3>
+          <p id="disco">– %</p>
+        </div>
+        <div class="card">
+          <h3>Salud</h3>
+          <p id="salud">–</p>
+        </div>
+      </section>
+
+      <section class="chart">
+        <canvas id="cpuChart" height="100"></canvas>
+      </section>
+
+      <footer>
+        <small>Última actualización: <span id="fecha">–</span></small>
+      </footer>
+    </main>
+
+    <script src="/static/js/main.js"></script>
+  </body>
+</html>

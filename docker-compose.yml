@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    image: mi-api-monitoreo
+    container_name: mi-api-viva
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./api_auditoria.log:/app/api_auditoria.log
+    environment:
+      - FLASK_ENV=production
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:5000/status || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

@@ -1,3 +1,6 @@
 __pycache__/
 venv/
-*.pycapi_auditoria.log
+*.pyc
+api_auditoria.log
+.DS_Store
+.env

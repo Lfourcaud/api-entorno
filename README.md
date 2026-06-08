@@ -56,4 +56,4 @@ docker run -d --rm --pid=host -p 5000:5000 --name mi-api-viva mi-api-monitoreo
 - `api_auditoria.log`: Archivo donde se registran las consultas recibidas (mapeado como volumen en Docker).
 
 ---
-*Desarrollado para el Trabajo Práctico de Sistemas Operativos.*
+*Desarrollado para el Trabajo Práctico de Ingenieria de Software.*

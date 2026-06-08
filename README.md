@@ -17,7 +17,7 @@ Desde la carpeta `api-entorno/`, ejecuta:
 docker compose up -d
 ```
 
-Luego, abre en tu navegador: [http://localhost:5000/](http://localhost:5000/)
+Luego, abre en tu navegador: [http://localhost:8080/](http://localhost:8080/)
 
 ### Opción 2: Usando Docker CLI
 
@@ -28,13 +28,13 @@ Luego, abre en tu navegador: [http://localhost:5000/](http://localhost:5000/)
 
 2. **Ejecutar el contenedor:**
    ```bash
-   docker run -d --rm -p 5000:5000 --name mi-api-viva mi-api-monitoreo
+   docker run -d --rm -p 8080:5000 --name mi-api-viva mi-api-monitoreo
    ```
 
 ## 📊 Endpoints disponibles
 
-- **Interfaz Gráfica:** `http://localhost:5000/`
-- **Datos JSON:** `http://localhost:5000/status`
+- **Interfaz Gráfica:** `http://localhost:8080/`
+- **Datos JSON:** `http://localhost:8080/status`
 
 ## 📝 Notas importantes sobre las métricas
 
@@ -43,8 +43,21 @@ Por defecto, Docker ejecuta el contenedor en un entorno aislado. Esto significa 
 Si deseas que la aplicación muestre las métricas **reales del sistema host**, debes ejecutar el contenedor compartiendo el espacio de nombres de procesos del host:
 
 ```bash
-docker run -d --rm --pid=host -p 5000:5000 --name mi-api-viva mi-api-monitoreo
+docker run -d --rm --pid=host -p 8080:5000 --name mi-api-viva mi-api-monitoreo
 ```
+
+**Nota sobre macOS:** Docker Desktop en macOS ejecuta contenedores dentro de una máquina virtual. Por ello, `--pid=host` no comparte el espacio de nombres de procesos del sistema macOS y **no** permitirá obtener las métricas reales del host macOS. Para ver métricas reales tienes dos opciones:
+
+- Ejecutar la aplicación directamente en tu macOS (sin Docker):
+
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python app.py
+```
+
+- O ejecutar el contenedor en una máquina Linux (o servidor) donde `--pid=host` sí es compatible.
 
 ## 📂 Estructura del Proyecto
 

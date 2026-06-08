@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   web:
     build: .
@@ -7,7 +5,7 @@ services:
     container_name: mi-api-viva
     restart: unless-stopped
     ports:
-      - "5000:5000"
+      - "8080:5000"
     volumes:
       - ./api_auditoria.log:/app/api_auditoria.log
     environment:

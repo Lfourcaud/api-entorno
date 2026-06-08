@@ -3,4 +3,4 @@ venv/
 *.pyc
 api_auditoria.log
 .DS_Store
-.env
+.envapi_auditoria.log
